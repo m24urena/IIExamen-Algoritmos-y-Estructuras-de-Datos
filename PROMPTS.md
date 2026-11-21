@@ -1,6 +1,6 @@
 # Registro de prompts
 
-- Integrantes: Pendiente
+- Integrantes: Janik Hamilton Zuñiga María Ureña Carrasco
 - Herramienta(s) de IA utilizada(s): GitHub Copilot
 
 ## Prompt 1
@@ -31,28 +31,28 @@ Texto exacto del prompt:
 Tool: GitHub Copilot
 
 Texto exacto del prompt:
-"debes poner todos los prompts que yo te de en el .md de prompts"
+"ahora implementa el algoritmo de Dijkstra en dos variantes, basándote en los datos de los CSV, para un Grafo Dirigido que corresponde a los Buses, en este las aristas de los buses son de un solo sentido punto de partida hacia punto de llegada con su respectivo tiempo en minutos. Solo se puede viajar en ese sentido. Para un Grafo No Dirigido que corresponde a la Caminata Las aristas de caminata permiten ir en ambos sentidos con su tiempo en minutos. Esto se utiliza para que el usuario elija una parada se salida y una de destino, el algoritmo le dice que bus tomar y si debe caminar para llegar lo antes posible y cuanto va a tardar. Asegurate de no modifica lo solicitado ni de sugerir arreglos y ten en cuenta las restricciones que menciona el documento  Examen_ll_-_ll-2026, ten en cuenta que la complejidad para dijkstra debe ser de O(V+E)ogV"
 
 ## Prompt 5
 Tool: GitHub Copilot
 
 Texto exacto del prompt:
-"ahora implementa el algoritmo de Dijkstra en dos variantes, basándote en los datos de los CSV, para un Grafo Dirigido que corresponde a los Buses, en este las aristas de los buses son de un solo sentido punto de partida hacia punto de llegada con su respectivo tiempo en minutos. Solo se puede viajar en ese sentido. Para un Grafo No Dirigido que corresponde a la Caminata Las aristas de caminata permiten ir en ambos sentidos con su tiempo en minutos. Esto se utiliza para que el usuario elija una parada se salida y una de destino, el algoritmo le dice que bus tomar y si debe caminar para llegar lo antes posible y cuanto va a tardar. Asegurate de no modifica lo solicitado ni de sugerir arreglos y ten en cuenta las restricciones que menciona el documento  Examen_ll_-_ll-2026, ten en cuenta que la complejidad para dijkstra debe ser de O(V+E)ogV"
+"generame archivos separados para cada algoritmo, arbol n-ario, counting sort y los grafos con dijkstra fuera de la clase Algoritmos"
 
 ## Prompt 6
 Tool: GitHub Copilot
 
 Texto exacto del prompt:
-"generame archivos separados para cada algoritmo, arbol n-ario, counting sort y los grafos con dijkstra fuera de la clase Algoritmos"
+"para el caso del arbol n-ario Asegurate de que la Clase abstracta "Ubicacion" tenga un nombre (String) y un método abstracto para obtener el total de abordajes. Que ciudad contenga un arreglo de referencias a sus Zonas hijas. Que zona Contiene un arreglo de referencias a sus Paradas hijas. Y que ciudad tenga metodos para agregar zonas y zonas para agregar paradas y uno para obtener el total de abordajes en el dia por zona y por parada"
 
 ## Prompt 7
 Tool: GitHub Copilot
 
 Texto exacto del prompt:
-"para el caso del arbol n-ario Asegurate de que la Clase abstracta "Ubicacion" tenga un nombre (String) y un método abstracto para obtener el total de abordajes. Que ciudad contenga un arreglo de referencias a sus Zonas hijas. Que zona Contiene un arreglo de referencias a sus Paradas hijas. Y que ciudad tenga metodos para agregar zonas y zonas para agregar paradas y uno para obtener el total de abordajes en el dia por zona y por parada"
+"ahora necesito que generes pruebas unitarias para probar los algoritmos generados, debes probar que todos funcionen y den los valores esperados, debes probar Casos límite como que Ciudad o Zona esten vacias, Parada con 0 abordajes, etc, debes probar con entradas inválidas como intentar agregar una parada nula, buscar una zona que no existe, etc. sigue las restricciones que se mencionan en el documento Examen_ll_-_ll-2026 sobre restricciones o requerimientos de estas pruebas, no modifiques nada ni hagas mejoras de lo que te estoy pidiendo"
 
 ## Prompt 8
 Tool: GitHub Copilot
 
 Texto exacto del prompt:
-"ahora necesito que generes pruebas unitarias para probar los algoritmos generados, debes probar que todos funcionen y den los valores esperados, debes probar Casos límite como que Ciudad o Zona esten vacias, Parada con 0 abordajes, etc, debes probar con entradas inválidas como intentar agregar una parada nula, buscar una zona que no existe, etc. sigue las restricciones que se mencionan en el documento Examen_ll_-_ll-2026 sobre restricciones o requerimientos de estas pruebas, no modifiques nada ni hagas mejoras de lo que te estoy pidiendo"
+"ahora en la seccion 3 del documento que te di hay un punto que dice "Se le debe solicitar a la IA que genere un archivo README con las siguientes secciones: " realiza todas las indicaciones que ahi especifica utilizando el mismo readme de los prompts"
