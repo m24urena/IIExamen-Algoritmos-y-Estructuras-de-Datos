@@ -20,6 +20,16 @@ public class Parada extends Ubicacion {
         return abordajes;
     }
 
+    @Override
+    public int getTotalAbordajes() {
+        return abordajes;
+    }
+
+    @Override
+    public Ubicacion[] getHijos() {
+        return new Ubicacion[0];
+    }
+
     public void agregarTramo(Tramo tramo) {
         Tramo[] nuevos = new Tramo[tramos.length + 1];
         System.arraycopy(tramos, 0, nuevos, 0, tramos.length);

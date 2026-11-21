@@ -1,21 +1,30 @@
 package cr.ac.tec.examen2;
 
 public class Ciudad extends Ubicacion {
+    private Zona[] zonas;
+
     public Ciudad(String nombre) {
         super(nombre);
+        zonas = new Zona[0];
     }
 
     public void agregarZona(Zona zona) {
-        agregarHijo(zona);
+        Zona[] nuevas = new Zona[zonas.length + 1];
+        System.arraycopy(zonas, 0, nuevas, 0, zonas.length);
+        nuevas[zonas.length] = zona;
+        zonas = nuevas;
+        zona.establecerPadre(this);
     }
 
     public Zona[] getZonas() {
-        Ubicacion[] hijos = getHijos();
-        Zona[] zonas = new Zona[hijos.length];
-        for (int i = 0; i < hijos.length; i++) {
-            zonas[i] = (Zona) hijos[i];
-        }
-        return zonas;
+        return getHijos();
+    }
+
+    @Override
+    public Zona[] getHijos() {
+        Zona[] copia = new Zona[zonas.length];
+        System.arraycopy(zonas, 0, copia, 0, zonas.length);
+        return copia;
     }
 
     public Zona buscarZona(String nombre) {
@@ -28,8 +37,13 @@ public class Ciudad extends Ubicacion {
         return null;
     }
 
+    public int getTotalAbordajesPorZona(String nombreZona) {
+        Zona zona = buscarZona(nombreZona);
+        return zona == null ? 0 : zona.getTotalAbordajes();
+    }
+
+    @Override
     public int getTotalAbordajes() {
-        Zona[] zonas = getZonas();
         int total = 0;
         for (int i = 0; i < zonas.length; i++) {
             total += zonas[i].getTotalAbordajes();

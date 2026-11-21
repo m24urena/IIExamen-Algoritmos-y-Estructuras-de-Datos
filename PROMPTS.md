@@ -44,3 +44,15 @@ Tool: GitHub Copilot
 
 Texto exacto del prompt:
 "generame archivos separados para cada algoritmo, arbol n-ario, counting sort y los grafos con dijkstra fuera de la clase Algoritmos"
+
+## Prompt 7
+Tool: GitHub Copilot
+
+Texto exacto del prompt:
+"para el caso del arbol n-ario Asegurate de que la Clase abstracta "Ubicacion" tenga un nombre (String) y un método abstracto para obtener el total de abordajes. Que ciudad contenga un arreglo de referencias a sus Zonas hijas. Que zona Contiene un arreglo de referencias a sus Paradas hijas. Y que ciudad tenga metodos para agregar zonas y zonas para agregar paradas y uno para obtener el total de abordajes en el dia por zona y por parada"
+
+## Prompt 8
+Tool: GitHub Copilot
+
+Texto exacto del prompt:
+"ahora necesito que generes pruebas unitarias para probar los algoritmos generados, debes probar que todos funcionen y den los valores esperados, debes probar Casos límite como que Ciudad o Zona esten vacias, Parada con 0 abordajes, etc, debes probar con entradas inválidas como intentar agregar una parada nula, buscar una zona que no existe, etc. sigue las restricciones que se mencionan en el documento Examen_ll_-_ll-2026 sobre restricciones o requerimientos de estas pruebas, no modifiques nada ni hagas mejoras de lo que te estoy pidiendo"
